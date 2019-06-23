@@ -5,6 +5,18 @@ body{
 #main{
   background-color:  #ffc515;
 }
+
+.active{
+  color: red;
+}
+.border{
+  border-right: solid orange 2px;
+  width: 230px;
+}
+.grid{
+  display: grid;
+  grid-template-columns: 300px 1fr;
+}
 a {
   color: black;
   text-decoration: none;
